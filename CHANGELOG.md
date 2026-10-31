@@ -1,4 +1,4 @@
-# 版本记录
+﻿# 版本记录
 
 ## 1.0.0
 
@@ -12,17 +12,17 @@
 | 烹饪 | Farmer's Delight + 15 个 Delight 扩展 + Vinery / Candlelight / Brewin' |
 | 枪械 | TaCZ 1.1.8-hotfix2 |
 | 探索 | Terralith / Structory / Explorify / Towns and Towers / Dungeons and Taverns |
-| 性能 | Embeddium / Oculus / Colorwheel / ModernFix / FerriteCore / ImmediatelyFast |
+| 性能 | Embeddium / Oculus / Colorwheel / ModernFix / FerriteCore / Entity Culling |
 | 生活质量 | Sophisticated Backpacks / Waystones / JEI / Jade / Quark / Supplementaries |
 
-共 113 个模组，服务端加载 91 个。
+共 113 个模组，服务端加载 92 个。
 
 ### 验证
 
 服务端完整启动通过：
 
 ```
-Loading 91 mods
+Loading 92 mods
 Done (21.101s)! For help, type "help"
 ```
 
@@ -64,7 +64,8 @@ Create 的 `AllAdvancements` 在静态初始化时引用流体注册表的竞态
 | FTB Quests + KubeJS 魔改 | 轻量包不需要任务线 |
 | Tectonic | 地形放大，与 Terralith 功能重叠，且区块生成更慢 |
 | Create: Structures | 仅少量 Create 风格建筑，内容价值低 |
-| YUNG's 三件套 + YUNG's API | 结构数据量较大，收益不匹配 |
+| YUNG's Better Mineshafts / Dungeons / Strongholds | 结构数据量较大，收益不匹配 |
 | Incendium、Nullscape | 下界与末地改造，非核心体验 |
 | Create: Bigger Storage | 基于 Create 5 API 编译，与 Create 6 冲突，会导致服务端崩溃 |
+| ImmediatelyFast | 只认 Iris 旧包名 `net.coderbot`，与 Oculus 的 `net.irisshaders` 不兼容，启动即崩 |
 | Ecliptic Seasons、SeasonHud | 季节系统非核心体验 |

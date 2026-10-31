@@ -26,14 +26,14 @@
 - 喜欢农夫乐事的烹饪系统，想有个完整的厨房玩法
 - 偶尔想拿枪打点东西（TaCZ），但不需要一整套军械库
 
-**实测环境**：服务端 91 个模组，`Done (21.1s)`，存活对象 594MB，
+**实测环境**：服务端 92 个模组，`Done (21.1s)`，存活对象 594MB，
 低功耗 CPU（i5-1235U）上稳定运行。
 
 | | |
 |---|---|
 | Minecraft | **1.20.1** |
 | Forge | **47.4.16** |
-| 模组数 | **113**（服务端加载 91） |
+| 模组数 | **113**（服务端加载 92） |
 | 客户端内存 | 建议 4-6 GB |
 
 ---
@@ -89,7 +89,7 @@ curl -LO https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.4.1
 java -jar forge-1.20.1-47.4.16-installer.jar --installServer
 echo "eula=true" > eula.txt
 
-# 2. 把 .mrpack 里的模组解压到 mods/，注意排除 22 个客户端专用模组
+# 2. 把 .mrpack 里的模组解压到 mods/，注意排除 21 个客户端专用模组
 
 # 3. 启动
 java -Xms4G -Xmx4G -XX:+UseG1GC \

@@ -2,8 +2,9 @@ name: Build mrpack
 
 on:
   push:
-    tags:
-      - "v*"
+    branches: [master]
+    tags: ["v*"]
+  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -13,6 +14,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check dependencies
+        run: python3 scripts/check-deps.py
+
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
@@ -21,9 +30,17 @@ jobs:
       - name: Install packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: Export mrpack
+      - name: Verify index is up to date
         run: |
           packwiz refresh
+          if ! git diff --quiet index.toml pack.toml; then
+            echo "::error::index.toml 与内容不一致，请本地执行 packwiz refresh 后提交"
+            git diff --stat
+            exit 1
+          fi
+
+      - name: Export mrpack
+        run: |
           mkdir -p dist
           packwiz modrinth export -o dist/CreateNookLite.mrpack
 
@@ -31,7 +48,7 @@ jobs:
         id: version
         run: |
           VERSION=$(grep '^version' pack.toml | sed 's/.*= *"//; s/"//')
-          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "version=v$VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -44,4 +61,3 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: dist/CreateNookLite.mrpack
-          fail_on_unmatched_files: true

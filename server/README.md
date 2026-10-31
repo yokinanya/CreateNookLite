@@ -1,7 +1,7 @@
 ﻿# 服务端部署
 
 面向 Linux 的部署说明。已在 **Debian 13 / i5-1235U / 15.7GB** 上实测：
-`Loading 91 mods` → `Done (21.1s)`，FATAL 0 条。
+`Loading 92 mods` → `Done (21.1s)`，FATAL 0 条。
 
 ---
 
@@ -36,7 +36,7 @@ CreateNookLite/
 ├── .venv/                # MCDR 的 Python 环境
 ├── plugins/
 └── server/               # Forge 服务端
-    ├── mods/             # 91 个服务端模组
+    ├── mods/             # 92 个服务端模组
     ├── libraries/
     ├── server.properties
     ├── eula.txt
@@ -73,10 +73,10 @@ java -jar packwiz-installer-bootstrap.jar \
   https://raw.githubusercontent.com/yokinanya/CreateNookLite/master/pack.toml
 ```
 
-这会把 91 个服务端模组下到 `mods/`，客户端专用的 22 个自动跳过。
+这会把 92 个服务端模组下到 `mods/`，客户端专用的 21 个自动跳过。
 
 **手动方式**：从 [Modrinth](https://modrinth.com/mods) 按
-[MODLIST.md](../MODLIST.md) 逐个下载，注意跳过末尾那 22 个客户端专用模组。
+[MODLIST.md](../MODLIST.md) 逐个下载，注意跳过末尾那 21 个客户端专用模组。
 
 **关键**：只放服务端需要的。`MODLIST.md` 末尾列了 22 个客户端专用模组
 （Oculus、Embeddium、Colorwheel 等），**不要**放进去 —— 它们引用了客户端专用的
@@ -85,7 +85,7 @@ Minecraft 类，服务端加载会抛 `invalid dist DEDICATED_SERVER` 直接崩�
 装完确认数量：
 
 ```bash
-ls mods/*.jar | wc -l    # 应该是 91
+ls mods/*.jar | wc -l    # 应该是 92
 ```
 
 ### 3. 装 MCDReforged（可选）
@@ -141,7 +141,7 @@ exec ./.venv/bin/python -m mcdreforged start
 -Xms4G -Xmx4G
 ```
 
-实测堆只用了 2.1GB，存活对象 594MB。4G 对 91 模组足够，
+实测堆只用了 2.1GB，存活对象 594MB。4G 对 92 模组足够，
 `-Xms` = `-Xmx` 避免堆动态扩张卡顿。实际 RSS 约 3-4GB。
 
 ### CPU

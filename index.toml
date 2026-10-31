@@ -2,15 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "3670f1e19329c14e90fb05718097286de1e4e258d7566b883c875e1019868861"
+hash = "c5d455874ad5a9c81572d755534a109627ec466f863293844f53e4ced356a5fe"
 
 [[files]]
 file = "MODLIST.md"
-hash = "ffb9224c25031778497bf45f2316d1f836f4664cf74cd19c337b76034bcb3169"
+hash = "39368e0018944044775900cf27c63c5a6b215e3bd53829df646788fe0bc60a67"
 
 [[files]]
 file = "README.md"
-hash = "25d85459cb4e2acd9346010e6a02ddabc5bb5ef344f77cf3c086737bb7cb39e1"
+hash = "e8c8e4f0b8beef0f2f482e41f5c724f0b873f4b6ee9068433dffe796ecfe07a9"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -328,11 +328,6 @@ hash = "c21d061d9c22b9bcdad2ac9f9823355fcab00f2ea05469b76d5ddf6ccf518479"
 metafile = true
 
 [[files]]
-file = "mods/immediatelyfast.pw.toml"
-hash = "835bd8b05a05ce6c0981ddc37c49e4c476aa0414cc2a5321fd9f8994193b6feb"
-metafile = true
-
-[[files]]
 file = "mods/item-borders.pw.toml"
 hash = "5a10f11c440c870239753bae8f488ca6c251bfaf6967b55cf8666c778c333da4"
 metafile = true
@@ -573,13 +568,26 @@ hash = "f3b3d035b89519faccc4ddd8b0b4407ce96c0eb49068fe50a445d43a3baa8bea"
 metafile = true
 
 [[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "152c6732da180e958fb29f492bae2e468d4dfd423ce4d3d0d31ef31c2eec6c61"
+metafile = true
+
+[[files]]
 file = "mods/zeta.pw.toml"
 hash = "b43f507cffbcc7178b184fa63b2d74fc6b2b8103c4d299ec5633ccf1f5abdafb"
 metafile = true
 
 [[files]]
+file = "release-notes.md"
+hash = "a832faf5f749ccdbcab5d97cb0a7edeb74ed1c760ab3b64bde44e96a3c89a1e0"
+
+[[files]]
+file = "scripts/check-deps.py"
+hash = "6b8804b5262ca82577806af29b03798cf388107d509f9e84f1df51e1307d9713"
+
+[[files]]
 file = "server/README.md"
-hash = "096e1002529727a4bca0e38c29428f50f3f37bebf6073b5f0d8b176fafaa9b3f"
+hash = "68f70bd800558110447c5b0cab3e2a17cca5850c29f9ceb8d969c31d2942709a"
 
 [[files]]
 file = "server/server.properties"

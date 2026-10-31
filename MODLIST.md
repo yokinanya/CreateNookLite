@@ -1,8 +1,8 @@
-# Create Nook Lite — 模组清单
+﻿# Create Nook Lite — 模组清单
 
 Minecraft 1.20.1 / Forge 47.4.16
 
-**总计 113 个模组**：91 个双端通用 + 22 个客户端专用（服务端不加载）。
+**总计 113 个模组**：92 个双端通用 + 21 个客户端专用（服务端不加载）。
 
 ---
 
@@ -28,14 +28,14 @@ Brewin' And Chewin' · Crate Delight · Chef's Delight ·
 
 TaCZ — Timeless and Classics Zero 1.1.8-hotfix2
 
-## 探索与世界生成（8）
+## 探索与世界生成（9）
 
 Terralith · Structory · Explorify · Dungeons and Taverns · Towns and Towers ·
-Nature's Compass · Explorer's Compass
+Nature's Compass · Explorer's Compass · YUNG's API
 
-## 性能与光影（12）
+## 性能与光影（11）
 
-Embeddium · Entity Culling · ModernFix · FerriteCore · ImmediatelyFast ·
+Embeddium · Entity Culling · ModernFix · FerriteCore ·
 Memory Leak Fix · Packet Fixer · Neruina（实体崩溃修复）· Crash Assistant ·
 Oculus（光影加载器）· Colorwheel（Create × 光影兼容）· Colorwheel Patcher
 
@@ -64,7 +64,7 @@ Resourceful Lib · Resourceful Config · Titanium · YetAnotherConfigLib · Zeta
 
 ---
 
-## 客户端专用（22 个，服务端不加载）
+## 客户端专用（21 个，服务端不加载）
 
 [EMF] Entity Model Features · [ETF] Entity Texture Features ·
 Advancement Plaques · Better Advancements · Colorwheel · Colorwheel Patcher ·
@@ -84,7 +84,7 @@ Searchables · Shoulder Surfing Reloaded · Toast Control · Traveler's Titles
 
 | 指标 | 数值 |
 |---|---|
-| 服务端模组数 | 91 |
+| 服务端模组数 | 92 |
 | 启动耗时 | 21.1s |
 | 堆使用 | 2.1 GB / 4 GB |
 | 存活对象 | 594 MB |
