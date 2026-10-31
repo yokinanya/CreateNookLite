@@ -1,5 +1,6 @@
 # packwiz 打包时忽略
-.github/
+
+# 运行时产物
 logs/
 crash-reports/
 *.log
@@ -7,8 +8,13 @@ crash-reports/
 # 导出的 mrpack 本身不随包分发
 dist/
 
-# 本地工具产生的内容，绝不能进整合包
+# 仓库元数据，不属于整合包内容
+.github/
 .alma-snapshots/
 .packwizignore
 .gitignore
+.gitattributes
 LICENSE
+
+# 仓库展示用图标，不打包进整合包
+icon.png

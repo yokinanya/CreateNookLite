@@ -10,11 +10,7 @@ hash = "ffb9224c25031778497bf45f2316d1f836f4664cf74cd19c337b76034bcb3169"
 
 [[files]]
 file = "README.md"
-hash = "0ff217b5671bace4ee90f432a782efcb8a871e947b9cfbb2986a716b4c49d757"
-
-[[files]]
-file = "icon.png"
-hash = "ec091b2b8ba02ba680e11350e707fbd6c3bddddcc1fd3f24378f908a158fe21f"
+hash = "25d85459cb4e2acd9346010e6a02ddabc5bb5ef344f77cf3c086737bb7cb39e1"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -583,7 +579,7 @@ metafile = true
 
 [[files]]
 file = "server/README.md"
-hash = "efc7e5ec09579d27ec7d78e879124dd7b86602a7e0866051fb1f65bb7d0835e1"
+hash = "096e1002529727a4bca0e38c29428f50f3f37bebf6073b5f0d8b176fafaa9b3f"
 
 [[files]]
 file = "server/server.properties"

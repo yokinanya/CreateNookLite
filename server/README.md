@@ -1,4 +1,4 @@
-# 服务端部署
+﻿# 服务端部署
 
 面向 Linux 的部署说明。已在 **Debian 13 / i5-1235U / 15.7GB** 上实测：
 `Loading 91 mods` → `Done (21.1s)`，FATAL 0 条。
@@ -70,7 +70,7 @@ curl -LO https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/
 # -s server 表示只装服务端需要的
 java -jar packwiz-installer-bootstrap.jar \
   -s server \
-  https://raw.githubusercontent.com/yokinanya/CreateNookLite/main/pack.toml
+  https://raw.githubusercontent.com/yokinanya/CreateNookLite/master/pack.toml
 ```
 
 这会把 91 个服务端模组下到 `mods/`，客户端专用的 22 个自动跳过。

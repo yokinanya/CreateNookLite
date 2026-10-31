@@ -1,4 +1,4 @@
-<img src="icon.png" width="140" align="right" alt="Create Nook Lite">
+﻿<img src="icon.png" width="140" align="right" alt="Create Nook Lite">
 
 # Create Nook Lite
 
@@ -63,7 +63,7 @@
 3. 启动器 JVM 参数加：
 
 ```
--Dpackwiz.updateURL=https://raw.githubusercontent.com/yokinanya/CreateNookLite/main/pack.toml
+-Dpackwiz.updateURL=https://raw.githubusercontent.com/yokinanya/CreateNookLite/master/pack.toml
 ```
 
 完整启动参数：
@@ -71,7 +71,7 @@
 ```
 -javaagent:packwiz-installer-bootstrap.jar
 -Dpackwiz.bootstrapsMainClass=link.infra.packwiz.installer.Main
--Dpackwiz.updateURL=https://raw.githubusercontent.com/yokinanya/CreateNookLite/main/pack.toml
+-Dpackwiz.updateURL=https://raw.githubusercontent.com/yokinanya/CreateNookLite/master/pack.toml
 ```
 
 这样每次启动都会拉取最新的 `pack.toml`，自动同步模组增删。
