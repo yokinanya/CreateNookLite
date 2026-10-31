@@ -1,0 +1,47 @@
+name: Build mrpack
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Export mrpack
+        run: |
+          packwiz refresh
+          mkdir -p dist
+          packwiz modrinth export -o dist/CreateNookLite.mrpack
+
+      - name: Read version
+        id: version
+        run: |
+          VERSION=$(grep '^version' pack.toml | sed 's/.*= *"//; s/"//')
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CreateNookLite-${{ steps.version.outputs.version }}
+          path: dist/CreateNookLite.mrpack
+
+      - name: Attach to release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/CreateNookLite.mrpack
+          fail_on_unmatched_files: true

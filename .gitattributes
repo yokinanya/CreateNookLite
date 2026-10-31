@@ -1,0 +1,7 @@
+# 统一换行符，避免 Windows/Linux 差异导致 packwiz 哈希不匹配
+* text=auto eol=lf
+
+# 二进制文件
+*.png binary
+*.jar binary
+*.mrpack binary

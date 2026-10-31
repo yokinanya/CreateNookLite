@@ -1,0 +1,13 @@
+name = "Sophisticated Core"
+filename = "sophisticatedcore-1.20.1-1.5.19.2441.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nmoqTijg/versions/NO1wpMea/sophisticatedcore-1.20.1-1.5.19.2441.jar"
+hash-format = "sha512"
+hash = "83c6c7903da651b06af64c4d98d0e2280c4c17ef47b1b59fddf172abf618131412c50fd6c582471ae926d5a1042f434e7c2b610fece92c70ce4113b6be966763"
+
+[update]
+[update.modrinth]
+mod-id = "nmoqTijg"
+version = "NO1wpMea"

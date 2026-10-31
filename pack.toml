@@ -1,0 +1,13 @@
+name = "Create Nook Lite"
+author = "Create Nook Lite"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8c09c8d61ff8956d43578997e13ec0d60145ef8eda5ed95006b8c5b7c508a5aa"
+
+[versions]
+forge = "47.4.16"
+minecraft = "1.20.1"

@@ -1,0 +1,13 @@
+name = "Create: Factory Controller"
+filename = "createfactorycontroller-1.2.1-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VR3MrvE2/versions/Dn7Fjt3A/createfactorycontroller-1.2.1-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "de48b33f68a04e78f0a37baa080a6bbdbcd5668dd19e0cf61b39915c50b7a6467c33de937ef4f2edf3bd548735689217e53612abf12a187b8772db267966abe4"
+
+[update]
+[update.modrinth]
+mod-id = "VR3MrvE2"
+version = "Dn7Fjt3A"

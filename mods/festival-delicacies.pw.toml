@@ -1,0 +1,13 @@
+name = "Festival Delicacies"
+filename = "festival_delicacies-2.0.0-beta+forge.1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zcrRcvE0/versions/hg4P8oC6/festival_delicacies-2.0.0-beta%2Bforge.1.20.1.jar"
+hash-format = "sha512"
+hash = "31e75cf60c190fc0bc4b1510c33c83227f18d63347a8371ce04f3b4214fefc458138e6349882659aae6df9f934f283b554194e524d0068f20b8c7b73bd35d655"
+
+[update]
+[update.modrinth]
+mod-id = "zcrRcvE0"
+version = "hg4P8oC6"

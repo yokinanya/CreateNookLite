@@ -1,0 +1,15 @@
+# 编辑器/系统
+.DS_Store
+Thumbs.db
+*.swp
+
+# 运行时产物
+logs/
+crash-reports/
+*.log
+
+# 本地工具产生的内容
+.alma-snapshots/
+
+# 导出的整合包由 CI 构建，不提交到仓库
+dist/*.mrpack

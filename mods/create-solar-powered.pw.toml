@@ -1,0 +1,13 @@
+name = "Create: Solar Powered"
+filename = "createsolar-1.2.6-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/X6JWoJ2m/versions/iSqW3Wsa/createsolar-1.2.6-1.20.1.jar"
+hash-format = "sha512"
+hash = "5e91d56a65044e04342b688de1aaebc225a7418ecfae394af0e88f527432b963453ea90891097980c36aa3d51cc32e0b9d5aa56e841fd1de04f2fd236c19d14b"
+
+[update]
+[update.modrinth]
+mod-id = "X6JWoJ2m"
+version = "iSqW3Wsa"

@@ -1,0 +1,14 @@
+# packwiz 打包时忽略
+.github/
+logs/
+crash-reports/
+*.log
+
+# 导出的 mrpack 本身不随包分发
+dist/
+
+# 本地工具产生的内容，绝不能进整合包
+.alma-snapshots/
+.packwizignore
+.gitignore
+LICENSE

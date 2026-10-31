@@ -1,0 +1,13 @@
+name = "Miner's Delight"
+filename = "miners_delight-1.20.1-1.4.5-backport.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/qMxbM4BQ/versions/p0INUam7/miners_delight-1.20.1-1.4.5-backport.jar"
+hash-format = "sha512"
+hash = "82e64570bf122c86537635d1fb9efa3a65a5da5acd41d2217ebcae95e337d0675ba94f0eda38a0edaf6e41a3be45838e04759ff96cac64c880db85a8bac4b015"
+
+[update]
+[update.modrinth]
+mod-id = "qMxbM4BQ"
+version = "p0INUam7"
