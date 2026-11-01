@@ -2,15 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "71ef5fbc57ec3d5f8fdf2b663e62f58985048789f9b175893fe6573838fc07fc"
+hash = "f41959148d44443d4eadc7e86126efeacbe9b3bfa48947abce9ac7e1aeb2072a"
 
 [[files]]
 file = "MODLIST.md"
-hash = "f00ca07bf6a8b05fce83ddae40bccfd2c4caa26bf25bd963f2e80664ed624a82"
+hash = "0269d8b3662189442eb88b46e926d9d83f0e0d6dfa8668cbf579610218b0eef8"
 
 [[files]]
 file = "README.md"
-hash = "06ad3c30facd698a68d111c441a49488b556134d4f21b59e8996333f19a46f21"
+hash = "7c3c5bca3590b5b2ae557442fc1d9ba6a951056f0547869d726a1ea30fe756ba"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -323,6 +323,11 @@ hash = "7ffae05c3b8101588b231db8116c34b36a77a0c6e6d7e6af867ae1c5b47e4d10"
 metafile = true
 
 [[files]]
+file = "mods/gjeb.pw.toml"
+hash = "4efbed1c99a588473a4471db49d7186f15172cf18e9da6ba8828609fd0357d3a"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "c21d061d9c22b9bcdad2ac9f9823355fcab00f2ea05469b76d5ddf6ccf518479"
 metafile = true
@@ -599,7 +604,7 @@ metafile = true
 
 [[files]]
 file = "server/README.md"
-hash = "9e8c8238b7e3575d1c81a5a5a191c9703536e074df0074eeefe34f26b79a5f93"
+hash = "b096cb07844e8f0ccc79c42df64d68b1eff371d1a092669fcf15aa81c8b5c3e2"
 
 [[files]]
 file = "server/server.properties"

@@ -4,11 +4,11 @@
 
 轻量版机械动力 + 农夫乐事整合包。参考
 [Create-Delight-Remake](https://github.com/Jasons-impart/Create-Delight-Remake)
-的思路，但把体量收敛到 117 个模组。
+的思路，但把体量收敛到 118 个模组。
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20.1-62b47a)
 ![Forge](https://img.shields.io/badge/Forge-47.4.16-d8a657)
-![Mods](https://img.shields.io/badge/Mods-117-5aa9c9)
+![Mods](https://img.shields.io/badge/Mods-118-5aa9c9)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 <br clear="right">
@@ -33,7 +33,7 @@
 |---|---|
 | Minecraft | **1.20.1** |
 | Forge | **47.4.16** |
-| 模组数 | **117**（服务端加载 93） |
+| 模组数 | **118**（服务端加载 93） |
 | 客户端内存 | 建议 4-6 GB |
 
 ---
@@ -52,7 +52,7 @@
 2. 内存分配 **4-6 GB**
 3. 启动
 
-启动器会自动下载 Forge 47.4.16 和全部 117 个模组，不用手动装任何东西。
+启动器会自动下载 Forge 47.4.16 和全部 118 个模组，不用手动装任何东西。
 
 ### 客户端（进阶：packwiz-installer，可自动更新）
 
@@ -194,7 +194,7 @@ Neruina（实体崩溃修复）、Crash Assistant（崩溃诊断）。
 
 ```
 CreateNookLite/
-├── mods/              # 117 个 .pw.toml（packwiz 元数据，不含 jar）
+├── mods/              # 118 个 .pw.toml（packwiz 元数据，不含 jar）
 ├── server/            # 服务端部署说明与配置模板
 ├── dist/              # 导出的 .mrpack（可直接导入启动器）
 ├── pack.toml          # packwiz 主配置

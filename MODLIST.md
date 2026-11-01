@@ -2,7 +2,7 @@
 
 Minecraft 1.20.1 / Forge 47.4.16
 
-**总计 117 个模组**：92 个双端通用 + 24 个客户端专用 + 1 个服务端专用。
+**总计 118 个模组**：92 个双端通用 + 25 个客户端专用 + 1 个服务端专用。
 
 ---
 
@@ -64,12 +64,12 @@ Resourceful Lib · Resourceful Config · Titanium · YetAnotherConfigLib · Zeta
 
 ---
 
-## 客户端专用（24 个，服务端不加载）
+## 客户端专用（25 个，服务端不加载）
 
 [EMF] Entity Model Features · [ETF] Entity Texture Features ·
 Advancement Plaques · Better Advancements · Colorwheel · Colorwheel Patcher ·
 Controlling · Crash Assistant · CustomSkinLoader · Drippy Loading Screen ·
-Embeddium · Entity Culling · Item Borders ·
+Embeddium · Entity Culling · GJEB（亮度上限 1000%）· Item Borders ·
 Just Enough Effect Descriptions · LetMeClickAndSend · Mouse Tweaks · Oculus ·
 Prism · Searchables · Shoulder Surfing Reloaded · Toast Control ·
 Traveler's Titles · Xaero's Minimap · Xaero's World Map
@@ -104,7 +104,7 @@ LetMeClickAndSendForServer —— 让服务端发出的 `run_command` 点击事�
 |---|---|---|
 | `[B` byte 数组 | 194 MB | 主要是资源文件与网络缓冲 |
 | BlockState | 41.8 MB | 47 万个方块状态，内容量的必然代价 |
-| zip 索引 | 15.2 MB | 117 个模组 jar 的文件索引 |
+| zip 索引 | 15.4 MB | 118 个模组 jar 的文件索引 |
 | 结构模板 | 14.3 MB | 世界生成结构缓存 |
 | datafixer | 5.5 MB | Mojang 数据修复器（原版开销） |
 

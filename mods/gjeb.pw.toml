@@ -1,0 +1,13 @@
+name = "GJEB (GammaJustExtremeBright)"
+filename = "gjeb-forge-1.20.1-1.3.0.39.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/CWbHbRfF/versions/1M1qQ7w7/gjeb-forge-1.20.1-1.3.0.39.jar"
+hash-format = "sha512"
+hash = "c752db999fb9eb9f6f5485725753b2d5213b2627fb2210405f71ad36e78747a5d078b2a4e18f9b9e6213f53ff4e7b14b7e83e37fc8d31ae17100334bd2173573"
+
+[update]
+[update.modrinth]
+mod-id = "CWbHbRfF"
+version = "1M1qQ7w7"

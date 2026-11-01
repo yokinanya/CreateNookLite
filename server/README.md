@@ -73,12 +73,12 @@ java -jar packwiz-installer-bootstrap.jar \
   https://raw.githubusercontent.com/yokinanya/CreateNookLite/master/pack.toml
 ```
 
-这会把 93 个服务端模组下到 `mods/`，客户端专用的 24 个自动跳过。
+这会把 93 个服务端模组下到 `mods/`，客户端专用的 25 个自动跳过。
 
 **手动方式**：从 [Modrinth](https://modrinth.com/mods) 按
-[MODLIST.md](../MODLIST.md) 逐个下载，注意跳过末尾那 24 个客户端专用模组。
+[MODLIST.md](../MODLIST.md) 逐个下载，注意跳过末尾那 25 个客户端专用模组。
 
-**关键**：只放服务端需要的。`MODLIST.md` 末尾列了 24 个客户端专用模组
+**关键**：只放服务端需要的。`MODLIST.md` 末尾列了 25 个客户端专用模组
 （Oculus、Embeddium、Colorwheel 等），**不要**放进去 —— 它们引用了客户端专用的
 Minecraft 类，服务端加载会抛 `invalid dist DEDICATED_SERVER` 直接崩溃。
 
