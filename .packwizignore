@@ -16,5 +16,8 @@ dist/
 .gitattributes
 LICENSE
 
+# 开发工具，不需要进入玩家的游戏目录
+scripts/
+
 # 仓库展示用图标，不打包进整合包
 icon.png

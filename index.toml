@@ -2,15 +2,15 @@ hash-format = "sha256"
 
 [[files]]
 file = "CHANGELOG.md"
-hash = "c5d455874ad5a9c81572d755534a109627ec466f863293844f53e4ced356a5fe"
+hash = "71ef5fbc57ec3d5f8fdf2b663e62f58985048789f9b175893fe6573838fc07fc"
 
 [[files]]
 file = "MODLIST.md"
-hash = "39368e0018944044775900cf27c63c5a6b215e3bd53829df646788fe0bc60a67"
+hash = "f00ca07bf6a8b05fce83ddae40bccfd2c4caa26bf25bd963f2e80664ed624a82"
 
 [[files]]
 file = "README.md"
-hash = "e8c8e4f0b8beef0f2f482e41f5c724f0b873f4b6ee9068433dffe796ecfe07a9"
+hash = "06ad3c30facd698a68d111c441a49488b556134d4f21b59e8996333f19a46f21"
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
@@ -363,6 +363,16 @@ hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
 metafile = true
 
 [[files]]
+file = "mods/letmeclickandsend.pw.toml"
+hash = "475137679564157981ad2ddd86edaef3463acbe2272f0137eff75f90c02d519e"
+metafile = true
+
+[[files]]
+file = "mods/letmeclickandsendforserver.pw.toml"
+hash = "6fed2fb03859249e2c504f2d1dd72f8cfc32dd756d4c62eebe8ce936819ea924"
+metafile = true
+
+[[files]]
 file = "mods/lets-do-candlelight.pw.toml"
 hash = "a7172dfca9838e101e0b6f7db545a04f82734847b394f54e14a8450f97781a0c"
 metafile = true
@@ -563,6 +573,16 @@ hash = "1dc6ca31c7b6912c494caa2a4f5f9f7250af50fbeb9ce9141ae9b741f9861987"
 metafile = true
 
 [[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "f5e433b2e7f4ef2626c4cf5bf0b8f61d1fe16485a1db2136e9a65d0fdf7c7118"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "27cab0d68353fd59690fe006f484b170374a105faf4f1d15948a34ba9bb78da7"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "f3b3d035b89519faccc4ddd8b0b4407ce96c0eb49068fe50a445d43a3baa8bea"
 metafile = true
@@ -578,16 +598,8 @@ hash = "b43f507cffbcc7178b184fa63b2d74fc6b2b8103c4d299ec5633ccf1f5abdafb"
 metafile = true
 
 [[files]]
-file = "release-notes.md"
-hash = "a832faf5f749ccdbcab5d97cb0a7edeb74ed1c760ab3b64bde44e96a3c89a1e0"
-
-[[files]]
-file = "scripts/check-deps.py"
-hash = "6b8804b5262ca82577806af29b03798cf388107d509f9e84f1df51e1307d9713"
-
-[[files]]
 file = "server/README.md"
-hash = "68f70bd800558110447c5b0cab3e2a17cca5850c29f9ceb8d969c31d2942709a"
+hash = "9e8c8238b7e3575d1c81a5a5a191c9703536e074df0074eeefe34f26b79a5f93"
 
 [[files]]
 file = "server/server.properties"

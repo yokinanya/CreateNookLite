@@ -1,0 +1,8 @@
+name = "LetMeClickAndSend"
+filename = "LetMeClickAndSend-v1.2.3-mc1.20.4-forge.jar"
+side = "client"
+
+[download]
+url = "https://github.com/Fallen-Breath/LetMeClickAndSend/releases/download/v1.2.3/LetMeClickAndSend-v1.2.3-mc1.20.4-forge.jar"
+hash-format = "sha512"
+hash = "973f941c2c03b15afec607d3c52cc58e17b30f4919bf0a2f2a1be1f427c165788683f1b7ba8c39e4e3df6ea116e808288fe31e0f4b4b540e0d2db8d4f5e37802"

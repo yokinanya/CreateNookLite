@@ -1,0 +1,8 @@
+name = "LetMeClickAndSendForServer"
+filename = "LetMeClickAndSendForServer-v1.0.5-mc1.20.4-forge.jar"
+side = "server"
+
+[download]
+url = "https://github.com/Fallen-Breath/LetMeClickAndSendForServer/releases/download/v1.0.5/LetMeClickAndSendForServer-v1.0.5-mc1.20.4-forge.jar"
+hash-format = "sha512"
+hash = "807388bc52d8a01d60730b98356ba11a7e1ba1d3e165036c09c3cfbdc3199b73aa67e1043b7dec6e85ad943444706e9157b6e088d00405aa3ec98907dfe69638"

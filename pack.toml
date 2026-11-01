@@ -1,12 +1,12 @@
 name = "Create Nook Lite"
 author = "Create Nook Lite"
-version = "1.0.0"
+version = "1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e8516d0e052d694645ac4c052a15bff254d3f8325d48f7fd94e133f303bb9e68"
+hash = "0cfc0525530e2cf0033e8b83c8f3e249b418f90e4d12c8646f856c3689b3d8a6"
 
 [versions]
 forge = "47.4.16"

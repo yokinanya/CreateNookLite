@@ -2,7 +2,7 @@
 
 Minecraft 1.20.1 / Forge 47.4.16
 
-**总计 113 个模组**：92 个双端通用 + 21 个客户端专用（服务端不加载）。
+**总计 117 个模组**：92 个双端通用 + 24 个客户端专用 + 1 个服务端专用。
 
 ---
 
@@ -64,17 +64,23 @@ Resourceful Lib · Resourceful Config · Titanium · YetAnotherConfigLib · Zeta
 
 ---
 
-## 客户端专用（21 个，服务端不加载）
+## 客户端专用（24 个，服务端不加载）
 
 [EMF] Entity Model Features · [ETF] Entity Texture Features ·
 Advancement Plaques · Better Advancements · Colorwheel · Colorwheel Patcher ·
 Controlling · Crash Assistant · CustomSkinLoader · Drippy Loading Screen ·
-Embeddium · Entity Culling · ImmediatelyFast · Item Borders ·
-Just Enough Effect Descriptions · Mouse Tweaks · Oculus · Prism ·
-Searchables · Shoulder Surfing Reloaded · Toast Control · Traveler's Titles
+Embeddium · Entity Culling · Item Borders ·
+Just Enough Effect Descriptions · LetMeClickAndSend · Mouse Tweaks · Oculus ·
+Prism · Searchables · Shoulder Surfing Reloaded · Toast Control ·
+Traveler's Titles · Xaero's Minimap · Xaero's World Map
 
 > 服务端部署时**不要**把这些放进 `server/mods/`。它们引用了客户端专用的
 > Minecraft 类，在服务端加载会直接抛 `invalid dist DEDICATED_SERVER` 导致启动崩溃。
+
+## 服务端专用（1 个，客户端不加载）
+
+LetMeClickAndSendForServer —— 让服务端发出的 `run_command` 点击事件
+（如 MCDR 的 `!!MCDR` 提示）在 1.19.1+ 的客户端上仍可点击执行。
 
 ---
 
@@ -84,7 +90,7 @@ Searchables · Shoulder Surfing Reloaded · Toast Control · Traveler's Titles
 
 | 指标 | 数值 |
 |---|---|
-| 服务端模组数 | 92 |
+| 服务端模组数 | 93 |
 | 启动耗时 | 21.1s |
 | 堆使用 | 2.1 GB / 4 GB |
 | 存活对象 | 594 MB |
@@ -98,7 +104,7 @@ Searchables · Shoulder Surfing Reloaded · Toast Control · Traveler's Titles
 |---|---|---|
 | `[B` byte 数组 | 194 MB | 主要是资源文件与网络缓冲 |
 | BlockState | 41.8 MB | 47 万个方块状态，内容量的必然代价 |
-| zip 索引 | 14.8 MB | 113 个模组 jar 的文件索引 |
+| zip 索引 | 15.2 MB | 117 个模组 jar 的文件索引 |
 | 结构模板 | 14.3 MB | 世界生成结构缓存 |
 | datafixer | 5.5 MB | Mojang 数据修复器（原版开销） |
 
