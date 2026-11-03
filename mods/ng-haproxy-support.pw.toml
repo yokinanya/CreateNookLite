@@ -1,0 +1,13 @@
+name = "NG HaProxy Support"
+filename = "ng_proxy_support-1.0.0-all.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/1xfuW2Hz/versions/KGRn01Wz/ng_proxy_support-1.0.0-all.jar"
+hash-format = "sha512"
+hash = "bfff78a596b90b08db11b33619ea8ecbed703daf954a7c5a65d324f8fc1640924df5db9ee67147d9e767142f35439ba3461447386522c7eb759734f9a72b7c78"
+
+[update]
+[update.modrinth]
+mod-id = "1xfuW2Hz"
+version = "KGRn01Wz"

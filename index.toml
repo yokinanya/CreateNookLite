@@ -448,6 +448,11 @@ hash = "a1d3b1b3f1a9ec557cbe63ea70dfc6f7048312ae5f807a7f0ebaa3278dcef594"
 metafile = true
 
 [[files]]
+file = "mods/ng-haproxy-support.pw.toml"
+hash = "0d0480048fb75646a14b12be2c0d07bf58210dabb162733cf5c9add8bbf5948e"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "1ce492476e04ace845503c8d8924f27b42ba360a925ec65a87043c366ec5cdfd"
 metafile = true
