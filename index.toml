@@ -533,6 +533,11 @@ hash = "416bb6449da951ec1a04156348c502b9e47a947212becc173d277faaddaaaccd"
 metafile = true
 
 [[files]]
+file = "mods/squaremap.pw.toml"
+hash = "5c78dbb88adfa00cec3fe9ebc557fa2ae88457417b32ccffc8ef9c3353405226"
+metafile = true
+
+[[files]]
 file = "mods/structory.pw.toml"
 hash = "d0b06ed3c01796837223764708bafdc354ca271083f29700aa2de1c5e1b4ff89"
 metafile = true
